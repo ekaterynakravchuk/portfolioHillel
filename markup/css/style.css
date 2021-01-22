@@ -98,7 +98,7 @@ table {
     left: 0;
     width: 50%;
     background: #618930;
-    color: #fff;   
+    color: #fff;
 }
 .nav {
     height: 740px;
@@ -171,7 +171,7 @@ table {
     padding: 0;
     outline: none;
     cursor: pointer;
-    
+
 }
 .first, .second, .third {
     display: block;
@@ -203,7 +203,7 @@ table {
     margin: 10px 0;
 }
 .startpage {
-    position: relative;   
+    position: relative;
     display: flex;
     align-items: stretch;
     width: 100%;
@@ -215,7 +215,7 @@ table {
 }
 .whitebox {
     flex: 1 0 50%;
-    background: #F5F5F5;
+    background: #f5f5f5;
 }
 .padding {
     position: absolute;
@@ -260,13 +260,14 @@ table {
     margin-top: 30px;
 }
 .image {
-/*    background-image: url(../img/background.svg);*/
+    background-image: url(../img/background.png);
     height: 820px;
+/*
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    visibility: hidden;
+*/
 }
 .skill_box {
     display: flex;
@@ -299,17 +300,120 @@ table {
     border-radius: 50%;
     background: #618930;
     margin-top: -7px;
-    
 }
-
-
-
-
-
-
-
-
-
+.projects {
+/*    display: none;*/
+    width: 50%;
+    padding: 80px;
+    background: #222629;
+}
+.projects h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 80px;
+    line-height: 96px;
+    color: #618930;
+    margin-bottom: 80px;
+}
+.projects h5 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    color: #fff;
+    margin: 80px 0 60px;
+}
+.projects p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.projects a {
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 21px;
+    color: #618930;
+    text-decoration: underline;
+}
+.projects a:before {
+    content: "";
+    position: absolute;
+    top: 11px;
+    right: -20px;
+    height: 1px;
+    width: 10px;
+    background: #618930;
+}
+.projects a:after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: -24px;
+    border-style: solid;
+    border-width: 2px 0 2px 5px;
+    border-color: transparent transparent transparent #618930;
+}
+.experience {
+    padding: 80px;
+    background: #f5f5f5;
+}
+.experience div {
+    margin-top: 80px;
+}
+.experience h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 80px;
+    line-height: 96px;
+    color: #272822;
+}
+.experience span {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 21px;
+    color: #87C232;
+}
+.experience h5 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000;
+}
+.experience p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000;
+    margin-bottom: 45px;
+}
+.experience a {
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 21px;
+    color: #87C232;
+    text-decoration: underline;
+}
+.experience a:before {
+    content: "";
+    position: absolute;
+    top: 11px;
+    right: -20px;
+    height: 1px;
+    width: 10px;
+    background: #87C232;
+}
+.experience a:after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: -24px;
+    border-style: solid;
+    border-width: 2px 0 2px 5px;
+    border-color: transparent transparent transparent #87C232;
 
 
 
