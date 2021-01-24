@@ -572,8 +572,25 @@ table {
 .experience a:hover:after {
     transform: translate(10px, 0);
 }
-
-
-
-
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+}
+.footer span {
+    color: #87C232;
+}
+.footer a {
+    color: #fff;
+}
+.footer a:before {
+    background: #fff;
+}
+.footer a:after {
+    border-color: transparent transparent transparent #fff;
+}
+.footer .mail:before {
+    background: #fff;
+}
 
