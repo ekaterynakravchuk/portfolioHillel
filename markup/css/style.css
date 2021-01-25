@@ -346,6 +346,7 @@ table {
 }
 .image img {
     width: 100%;
+    vertical-align: top;
 }
 .skill_box {
     display: flex;
@@ -419,6 +420,7 @@ table {
 }
 .download-img img {
     width: 100%;
+    vertical-align: top;
 }
 .load-btn {
     position: absolute;
