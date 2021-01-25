@@ -1,3 +1,7 @@
+:root {
+    --main-color: #000;
+    --accent-color: #fff;
+}
 *,
 *:before,
 *:after {
@@ -340,11 +344,8 @@ table {
     color: #000;
     margin-top: 30px;
 }
-.image {
-    background-image: url(../img/background.png);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    height: 1115px;
+.image img {
+    width: 100%;
 }
 .skill_box {
     display: flex;
@@ -416,21 +417,17 @@ table {
 .download {
     position: relative;
 }
-.download-img {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    background-image: url(../img/download.png);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    height: 1300px;
+.download-img img {
+    width: 100%;
 }
 .load-btn {
-    margin-top: 100px;
-    width: 1100px;
-    height: 700px;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    width: 75%;
+    height: 55%;
     cursor: pointer;
-    opacity: 0;
+    opacity: 0.5;
 }
 .projects {
     position: absolute;
